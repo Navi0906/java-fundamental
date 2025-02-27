@@ -5,6 +5,6 @@ class ConvertKilometersToMiles{
 		System.out.print("Enter the distance in kilometers : ");
 		int kilometers = sc.nextInt();
 		double miles = kilometers * 0.621371;
-		System.out.print("Distance in Miles :"+miles);
+		System.out.print("Distance converted in Miles :"+miles);
 	}
 }
